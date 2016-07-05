@@ -1,0 +1,64 @@
+		h1 {
+			text-align: center;
+		}
+		.main {
+			position: absolute;
+			top: 20%;
+			vertical-align: middle;
+		}
+		.section {
+			position: relative;
+			float: left;
+			background-color: grey;
+			border-width: 2px;
+			border-color: black;
+			border-style: solid;
+			margin: .66%;
+			box-sizing: border-box;
+			padding: 0px;
+		}
+
+		.meat {
+			position: relative;
+			right: 0px;
+			text-align: center;
+			float: right;
+			clear: left;
+			background-color: blue;
+			width: 20%;
+			border: 2px solid black;
+			border-top: 0px;
+			border-right: 0px;
+			margin: 0px;
+		}
+
+		.main > div:nth-child(1) p:nth-child(1) {
+			background-color: #FF9999;
+		}
+		.main > div:nth-child(2) p:nth-child(1) {
+			background-color: #B22222;
+		}
+		.main > div:nth-child(3) p:nth-child(1) {
+			background-color: #EEE8AA;
+		}
+
+		.items {
+			padding: 5px;
+			clear: right;
+		}
+
+		@media(min-width: 992px) {
+			.col-lg-4 {
+				width: 32%;
+			}
+		}
+		@media(min-width: 768px) and (max-width: 991px){
+			.col-md-6 {
+				width: 48%;
+			}
+
+			.col-md-12 {
+				width: 97%
+			}
+		}
+
