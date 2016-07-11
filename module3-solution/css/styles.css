@@ -1,0 +1,43 @@
+.navbar {
+	background-color: #99CCFF;
+	border-radius: 0;
+  	border: 0.25px solid black;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+#button-data {
+}
+
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-button-data li {
+	text-align: center;
+	border: 0.25px solid black;
+}
+
+#nav-button-data span {
+	color:black;
+}
+#nav-button-data {
+	background-color: #0080ff;
+	overflow: visible;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 0;
+}
+@media (max-width: 767px) {
+
+}
